@@ -100,8 +100,8 @@ var MindMapMain = (function () {
         else {
             this.selectClear();
         }
-        if (typeof this.options.afterMouseDown == "function"){
-            this.options.afterMouseDown()
+        if (typeof this.options.afterMouseDown === 'function'){
+            this.options.afterMouseDown(e)
         }
     };
     MindMapMain.prototype.clickHandle = function (e) {
@@ -116,8 +116,8 @@ var MindMapMain = (function () {
                 this.toggleNode(nodeid);
             }
         }
-        if (typeof this.options.afterClick == "function"){
-            this.options.afterClick()
+        if (typeof this.options.afterClick === 'function'){
+            this.options.afterClick(e)
         }
     };
     MindMapMain.prototype.dblclickHandle = function (e) {
@@ -131,8 +131,8 @@ var MindMapMain = (function () {
                 this.beginEdit(nodeid);
             }
         }
-        if (typeof this.options.afterDbClick == "function"){
-            this.options.afterDbClick()
+        if (typeof this.options.afterDbClick === 'function'){
+            this.options.afterDbClick(e)
         }
     };
     MindMapMain.prototype.getSelectTypesByHierarchyRule = function (node) {
