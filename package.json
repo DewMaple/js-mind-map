@@ -1,10 +1,22 @@
 {
   "name": "js-mind-map",
   "version": "0.0.1",
+  "description": "js component for mind map",
+  "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "npm run test"
   },
-  "dependencies": {
-    
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DewMaple/js-mind-map.git"
+  },
+  "keywords": [
+    "mindmap"
+  ],
+  "author": "“dew.maple” <“dew.maple@gmail.com”>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DewMaple/js-mind-map/issues"
+  },
+  "homepage": "https://github.com/DewMaple/js-mind-map#readme"
 }
