@@ -1,6 +1,6 @@
 {
   "name": "js-mind-map",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "js component for mind map",
   "main": "js/index.js",
   "scripts": {
